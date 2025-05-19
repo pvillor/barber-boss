@@ -126,8 +126,26 @@
   <data name="BILLING_NOT_FOUND" xml:space="preserve">
     <value>Billing not found.</value>
   </data>
+  <data name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
+    <value>E-mail already registered.</value>
+  </data>
+  <data name="EMAIL_EMPTY" xml:space="preserve">
+    <value>Email is required.</value>
+  </data>
+  <data name="EMAIL_INVALID" xml:space="preserve">
+    <value>Invalid e-mail address.</value>
+  </data>
+  <data name="EMAIL_OR_PASSWORD_INVALID" xml:space="preserve">
+    <value>Invalid e-mail or password.</value>
+  </data>
   <data name="INVALID_PAYMENT_TYPE" xml:space="preserve">
     <value>Invalid payment type.</value>
+  </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>Name is required.</value>
+  </data>
+  <data name="PASSWORD_INVALID" xml:space="preserve">
+    <value>Password must contain at least 8 chars, one uppercase, one lowercase, one number and a special char (ex: !, ?, #)</value>
   </data>
   <data name="TITLE_REQUIRED" xml:space="preserve">
     <value>Title is required.</value>

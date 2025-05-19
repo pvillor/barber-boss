@@ -88,11 +88,65 @@ namespace BarberBoss.Exception {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to E-mail already registered..
+        /// </summary>
+        public static string EMAIL_ALREADY_REGISTERED {
+            get {
+                return ResourceManager.GetString("EMAIL_ALREADY_REGISTERED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email is required..
+        /// </summary>
+        public static string EMAIL_EMPTY {
+            get {
+                return ResourceManager.GetString("EMAIL_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid e-mail address..
+        /// </summary>
+        public static string EMAIL_INVALID {
+            get {
+                return ResourceManager.GetString("EMAIL_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid e-mail or password..
+        /// </summary>
+        public static string EMAIL_OR_PASSWORD_INVALID {
+            get {
+                return ResourceManager.GetString("EMAIL_OR_PASSWORD_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invalid payment type..
         /// </summary>
         public static string INVALID_PAYMENT_TYPE {
             get {
                 return ResourceManager.GetString("INVALID_PAYMENT_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name is required..
+        /// </summary>
+        public static string NAME_EMPTY {
+            get {
+                return ResourceManager.GetString("NAME_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password must contain at least 8 chars, one uppercase, one lowercase, one number and a special char (ex: !, ?, #).
+        /// </summary>
+        public static string PASSWORD_INVALID {
+            get {
+                return ResourceManager.GetString("PASSWORD_INVALID", resourceCulture);
             }
         }
         
